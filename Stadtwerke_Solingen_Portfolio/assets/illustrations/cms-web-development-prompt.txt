@@ -1,0 +1,1 @@
+Built-in imagegen. Landscape editorial comic illustration matching the supplied reference: curly brown-haired man with beard, black glasses and white shirt developing reusable web components at a laptop in a navy workspace. HTML, CSS and JavaScript badges, code editor, website preview and subtle thyssenkrupp branding. Conceptual illustration, not an actual screenshot.

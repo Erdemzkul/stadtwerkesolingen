@@ -1,0 +1,9 @@
+Bu paket mevcut Erdemzkul.github.io reposuna hazirdir.
+
+GitHub reposunda Add file > Upload files ile ZIP icindeki dosya ve klasorleri repo kokune yukleyin, Commit changes yapin. ZIP dosyasinin kendisini yuklemeyin.
+
+index.html yeni basvuru sayfasidir. portfolio-general.html onceki portfolyoyu korur. styles.css, script.js ve assets klasoru eski portfolyo icin korunmustur. Yeni sayfa solingen.css ve solingen.js kullanir.
+
+index.html dosyasini tarayicida acarak internetsiz de inceleyebilirsiniz.
+
+GitHub entegrasyonu yazma isteginde 403 hatasi verdigi icin bu surum henuz canli siteye aktarilmadi.

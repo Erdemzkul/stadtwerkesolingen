@@ -1,0 +1,166 @@
+---
+title: ""
+format:
+  pdf:
+    pdf-engine: lualatex
+    documentclass: article
+    papersize: a4
+    geometry:
+      - top=1.2cm
+      - bottom=1.2cm
+      - left=1.55cm
+      - right=1.55cm
+    fontsize: 10pt
+    colorlinks: true
+    urlcolor: black
+    linkcolor: black
+    keep-tex: false
+execute:
+  echo: false
+header-includes:
+  - \usepackage{fontspec}
+  - \setmainfont{Arial}
+  - \usepackage{titlesec}
+  - \usepackage{enumitem}
+  - \usepackage{xcolor}
+  - \usepackage{hyperref}
+  - \usepackage{parskip}
+  - \usepackage{tabularx}
+  - \usepackage{array}
+  - \usepackage{graphicx}
+  - \usepackage{tikz}
+  - \usepackage{ragged2e}
+  - \pagenumbering{gobble}
+  - \setlength{\parindent}{0pt}
+  - \setlength{\parskip}{1pt}
+  - \titleformat{\section}{\small\bfseries\uppercase}{}{0em}{}[\titlerule]
+  - \titlespacing*{\section}{0pt}{6pt}{3pt}
+  - \setlist[itemize]{leftmargin=10pt,itemsep=1pt,topsep=1pt,parsep=0pt}
+---
+
+```{=latex}
+\noindent
+\IfFileExists{picture.jpg}{%
+\begin{minipage}[c]{0.17\textwidth}
+\begin{tikzpicture}
+\clip (0,0) circle (1.3cm);
+\node at (0,0) {\includegraphics[width=2.6cm]{picture.jpg}};
+\end{tikzpicture}
+\end{minipage}\hfill
+}{% 
+}
+\begin{minipage}[c]{0.80\textwidth}
+{\LARGE \textbf{Vedat Erdem Özkul}}\par\vspace{3pt}
+{\normalsize \textbf{Webmanagement | Webanalyse | Marke \& digitale Prozesse}}\par\vspace{3pt}
+Remscheid, Deutschland \quad \href{mailto:v.e.ozkul@gmail.com}{v.e.ozkul@gmail.com}\par
++49 178 266 3079\par
+Verfügbar ab 01.01.2027 in Vollzeit\par
+\vspace{2pt}
+\href{https://www.linkedin.com/in/erdem-ozkul}{linkedin.com/in/erdem-ozkul}\par
+\href{https://erdemzkul.github.io/}{Portfolio: erdemzkul.github.io}
+\end{minipage}
+\par\vspace{4pt}
+```
+
+## Profil
+
+Rund drei Jahre Praxis in Webmanagement, SEO und Webanalyse, verbunden mit langjähriger Führungs- und Projektverantwortung. Bei thyssenkrupp Uhde arbeite ich mit TYPO3, entwickle Webkomponenten und habe ein automatisiertes Reporting für den gesamten Web-Traffic aufgebaut. Bei Çamsan betreute ich Websites mit WordPress und TYPO3 und steuerte externe Agenturen für Website, Werbung, Grafik und Social Media. Diese Verbindung aus Technik, Analyse und Markenführung möchte ich in die Weiterentwicklung der Webauftritte der Stadtwerke Solingen einbringen.
+
+## Berufserfahrung
+
+\textbf{thyssenkrupp Uhde GmbH | Dortmund, Deutschland} \hfill \textbf{07/2026 -- heute}
+
+\textit{Werkstudent -- Corporate Communication, CMS-Management und KI-Lösungen}
+
+\textit{Deutsch als tägliche Arbeitssprache im Unternehmensumfeld.}
+
+\href{https://www.thyssenkrupp-uhde.com/}{Webreferenz: www.thyssenkrupp-uhde.com}
+
+\begin{itemize}
+\item Arbeite an SEO und dem Webauftritt in TYPO3; gleiche Sitemaps mit Analysedaten ab und wirke an der Neudefinition von KPIs und Website-Strukturen mit Blick auf Kundenbedürfnisse und Unternehmensziele mit.
+\item Entwickle im Rahmen einer Website-Migration wiederverwendbare HTML-, CSS- und JavaScript-Komponenten für Anforderungen, die sich mit den vorhandenen CMS-Funktionen nicht umsetzen lassen.
+\item Habe ein Power-BI-System zur Analyse sämtlicher Web-Traffic-Ströme auf Basis von Matomo-Daten aufgebaut. Automatisch aktualisierte Online-Dashboards ermöglichen Teams und Führungskräften den gleichzeitigen Zugriff auf einen gemeinsamen Informationsstand.
+\item Analysiere Nutzerflüsse, Funnels und Absprungraten mit Matomo und bereite Optimierungspotenziale für die Fachbereiche verständlich auf.
+\item Stimme fachliche und technische Anforderungen mit internen Stakeholdern ab, dokumentiere die Umsetzung und übersetze Analyseergebnisse in konkrete Verbesserungsmöglichkeiten.
+\end{itemize}
+
+\textbf{Çamsan Ordu A.Ş. | Ordu, Türkei} \hfill \textbf{05/2023 -- 03/2026}
+
+\textit{Design, Brand \& Marketing Manager}
+
+\href{https://camsanordu.com/}{Webreferenz: www.camsanordu.com}
+
+\begin{itemize}
+\item Verantwortete SEO und Webinhalte in WordPress und TYPO3. Glich Sitemaps mit Analysedaten ab und entwickelte KPIs sowie Website-Strukturen anhand von Kundenbedürfnissen und Unternehmenszielen weiter.
+\item Führte sieben Mitarbeitende direkt und steuerte vier externe Agenturen für Design, Webentwicklung, Werbung und Social Media in Abstimmung mit internen Stakeholdern.
+\item Analysierte Kunden-, Vertriebs- und digitale Performancedaten mit Google Analytics und R und leitete daraus Empfehlungen für Marketing und Geschäftsentwicklung ab.
+\item Verantwortete eine bereichsübergreifende Digitalisierung für ein Netzwerk von 287 Händlern und bündelte Anforderungen von Geschäftsleitung, Vertrieb, IT und Marketing.
+\item Strukturierte Kunden- und Vertriebsprozesse mit Odoo und SAP und etablierte über 120 automatisierte Berichte in sieben Unternehmensbereichen.
+\item Verantwortete ein jährliches Marketingbudget von 1,5 Mio. Euro für Werbung, Agenturleistungen, Messen, Veranstaltungen, Design-Center-Aktivitäten und Werbemittel; präsentierte Konzepte und Ergebnisse direkt vor Geschäftsführung und Vorstand.
+\end{itemize}
+
+\textbf{Ordu Metropolitan Municipality | Ordu, Türkei} \hfill \textbf{08/2020 -- 05/2023}
+
+\textit{Senior Architect}
+
+\begin{itemize}
+\item Leitete mehr als 20 öffentliche Infrastruktur- und Stadtentwicklungsprojekte und koordinierte interdisziplinäre Teams, externe Partner und öffentliche Auftraggeber.
+\item Überführte komplexe Anforderungen in strukturierte Projektpläne, messbare Kriterien und verständliche Entscheidungsunterlagen für technische und nichttechnische Beteiligte.
+\end{itemize}
+
+\textbf{ARTITECH Architecture | Istanbul, Türkei} \hfill \textbf{01/2017 -- 08/2020}
+
+\textit{Mitgründer / Architekt}
+
+\begin{itemize}
+\item Gründete und führte ein Architekturbüro mit; verantwortete Kundenanforderungen, Projektkoordination und Ergebnispräsentationen in mehreren parallelen Projekten.
+\item Plante und realisierte Architektur- und Innenarchitekturprojekte mit insgesamt mehr als 50.000 m² Fläche.
+\end{itemize}
+
+## Frühere Berufserfahrung
+
+\textbf{MME Mimarlık | Istanbul} \hfill \textbf{03/2016 -- 01/2017}
+
+\textit{3D Architectural Designer} -- Architektur- und 3D-Entwürfe, technische Zeichnungen und Kundenpräsentationen.
+
+\textbf{Nakipoğlu İnşaat | Istanbul} \hfill \textbf{01/2015 -- 03/2016}
+
+\textit{Site Manager} -- Koordination von Baustellenteams, Termin- und Qualitätskontrolle sowie Projektberichte.
+
+\textbf{TAV Construction | Istanbul} \hfill \textbf{06/2014 -- 09/2014}
+
+\textit{Praktikum Architektur} -- Dokumentation von Baufortschritt und Terminabweichungen mit MS Project.
+
+\textbf{TONER Architects | Istanbul} \hfill \textbf{06/2013 -- 08/2013}
+
+\textit{Praktikum Architektur / 3D-Visualisierung} -- Innenraumentwurf, 3D-Modelle und Renderings.
+
+## Ausbildung
+
+\textbf{Data Analysis \& Decision-Making -- International Management, M.A.}\par
+\textbf{03/2026 -- voraussichtlich 03/2028} \quad Hochschule Fresenius, Köln
+
+Schwerpunkte: datenbasierte Entscheidungen, Business Analytics und quantitative Analyse.
+
+\vspace{3pt}
+\textbf{Bachelor of Architecture (B.Arch.)} \hfill \textbf{2011 -- 2016}
+
+Istanbul Technical University (ITU)
+
+## Fachkenntnisse
+
+\textbf{Webmanagement \& Content:} TYPO3 · WordPress · SEO · Landingpages (Gestaltung und Umsetzung) · Customer Journey · Conversion · UX · Barrierefreiheit · DSGVO / Consent · HTML · CSS · JavaScript
+
+\textbf{Webanalyse \& Reporting:} Matomo · Google Analytics · Power BI · Excel · KPI-Definition · Funnel-Analyse · Absprungraten · automatisierte Online-Dashboards
+
+\textbf{Marke \& Projektarbeit:} Design-, Marken- und Marketingmanagement · Anforderungsanalyse · bereichsübergreifende Abstimmung · Agentur- und Dienstleistersteuerung · Managementpräsentationen · Projektdokumentation · Kunden- und Marktanalyse
+
+\textbf{Daten \& Automatisierung:} Python · Pandas · R / RStudio · SQL (Arbeitskenntnisse) · Jupyter Notebooks · Datenbereinigung · Odoo · SAP · Power Automate · n8n
+
+\textbf{KI \& Entwicklungswerkzeuge:} Microsoft Azure · Microsoft Copilot Studio · LLMs · Git / GitHub · Visual Studio Code · Markdown / Quarto
+
+## Sprachen & Interessen
+
+\textbf{Sprachen:} Türkisch -- Muttersprache · Englisch -- C1 (zertifiziert) · Deutsch -- B1 (aktuell auf dem Weg zu B2)
+
+\textbf{Interessen:} Angewandte KI und Datenanalyse · Reisen und andere Kulturen · Türkischer Landesmeister im Bachata · Musikproduktion (FL Studio)
